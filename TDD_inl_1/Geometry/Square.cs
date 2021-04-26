@@ -20,7 +20,7 @@
         public float GetArea()
         {
             
-            return MathExtensions.Round(Side * Side);
+            return (Side * Side).Round();
         }
 
         /// <summary>
@@ -29,7 +29,7 @@
         /// <returns>Perimeter: <see cref="float"/></returns>
         public float GetPerimeter()
         {
-            return MathExtensions.Round(Side * 4);
+            return (Side * 4).Round();
         }
     }
 }

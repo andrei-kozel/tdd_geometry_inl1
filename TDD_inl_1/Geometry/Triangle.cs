@@ -52,7 +52,7 @@
         /// A triangle exists only when the sum of its two sides is greater than the third.
         /// </summary>
         /// <returns>True or false</returns>
-        private bool IsTriangleExist()
+        public bool IsTriangleExist()
         {
             if (SideA + SideB >= SideC)
             {
